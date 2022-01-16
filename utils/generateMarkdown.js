@@ -15,9 +15,41 @@ function generateMarkdown(data) {
 
 const {name, username, email} = data;
 
-  return `# ${data.name}
-  # ${data.username}
-  # ${data.email}
+  return `
+  # ${data.title}
+  ### Project Creator
+    ${data.name}
+  ## Description
+    ${data.description}
+
+  ## Table of Contents
+    * [license](#license)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Contributing](#contributing)
+    * [Tests](#test)
+    * [Questions](#license)
+    
+  ## License   
+    ${data.license}
+
+  ## Installation
+    ${data.installation}
+
+  ## Usage
+    ${data.usage}
+
+    [Click to view the deployed project website.](https://${data.deployedSite})
+  ## Contributing  
+    ${data.contributing}
+
+  ## Tests
+    ${data.test}
+
+  ## Questions  
+    [Click on the link to visit my GitHub Profile.](https://www.github.com/${data.username})
+
+    [If you have any questions, send me an email at: ${data.email}]
 `;
 }
 

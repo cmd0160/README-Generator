@@ -72,6 +72,19 @@ const questions = [
   }, 
   {
     type: 'input',
+    name: 'deployedSite',
+    message: 'Provide a link to the deployed site.',
+    validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please provide a link to the deployed site!');
+          return false;
+        }
+    }
+  }, 
+  {
+    type: 'input',
     name: 'installation',
     message: 'Provide a description of how to install your project.',
     validate: nameInput => {
