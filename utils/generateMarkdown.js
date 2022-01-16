@@ -23,12 +23,12 @@ const {name, username, email} = data;
     ${data.description}
 
   ## Table of Contents
-    * [license](#license)
+    * [License](#license)
     * [Installation](#installation)
     * [Usage](#usage)
     * [Contributing](#contributing)
-    * [Tests](#test)
-    * [Questions](#license)
+    * [Tests](#tests)
+    * [Questions](#questions)
     
   ## License   
     ${data.license}

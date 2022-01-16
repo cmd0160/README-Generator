@@ -3,33 +3,33 @@
   ### Project Creator
     Cory Davis
   ## Description
-    Hooks up runners with a trainer.
+    ;laksjdf
 
   ## Table of Contents
-    * [license](#license)
+    * [License](#license)
     * [Installation](#installation)
     * [Usage](#usage)
     * [Contributing](#contributing)
-    * [Tests](#test)
-    * [Questions](#license)
+    * [Tests](#tests)
+    * [Questions](#questions)
     
   ## License   
     MIT
 
   ## Installation
-    This is how you install
+    ;lkajsdf
 
   ## Usage
-    This is how you use
+    ;lkajsdf
 
-    [Click to view the deployed project website.](https://www.runbuddy.fake.com)
+    [Click to view the deployed project website.](https://;laksjdf)
   ## Contributing  
-    This is how you contribute
+    ;lkajsdf
 
   ## Tests
-    This is how to test
+    ;lkajsdf
 
   ## Questions  
     [Click on the link to visit my GitHub Profile.](https://www.github.com/cmd0160)
 
-    [If you have any questions, send me an email at: alskdjfhiw@gmail.com]
+    [If you have any questions, send me an email at: casdoih@gmail.com]
