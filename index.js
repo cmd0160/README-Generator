@@ -44,6 +44,90 @@ const questions = [
       }
     },
   },
+  {
+    type: 'input',
+    name: 'title',
+    message: 'What is the title of your project?',
+    validate: nameInput => {
+      if (nameInput) {
+        return true;
+      } else {
+        console.log('Please enter your project title!');
+        return false;
+      }
+    }
+  },
+  {
+    type: 'input',
+    name: 'description',
+    message: 'Provide a description of your project.',
+    validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter a description of your project!');
+          return false;
+        }
+    }
+  }, 
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'Provide a description of how to install your project.',
+    validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter a description of how to install your project!');
+          return false;
+        }
+    }
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'Provide a description of how to use your project.',
+    validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter a description of how to use your project!');
+          return false;
+        }
+    }
+  },
+  {
+    type: 'list',
+    name: 'license',
+    message: 'What license should your project have?',
+    choices:['MIT', 'Apache 2.0', 'CC0']  
+  },
+  {
+    type: 'input',
+    name: 'contributing',
+    message: 'Provide a description of how to contribute to your project repo.',
+    validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter a description of how to contribute to your project repo!');
+          return false;
+        }
+    }
+  },
+  {
+    type: 'input',
+    name: 'test',
+    message: 'Provide a description of how to test your project.',
+    validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter a description of how to test your project!');
+          return false;
+        }
+    }
+  },
 ];
 
 // TODO: Create a function to write README file
