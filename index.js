@@ -1,34 +1,86 @@
 // TODO: Include packages needed for this application
-var commandLineArgs = process.argv;
-console.log(commandLineArgs);
+const fs = require("fs");
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown.js");
+
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+  {
+    type: "input",
+    name: "name",
+    message: "What is your first and last name?",
+    validate: (nameInput) => {
+      if (nameInput) {
+        return true;
+      } else {
+        console.log("Please enter your first and last name!");
+        return false;
+      }
+    },
+  },
+  {
+    type: "input",
+    name: "username",
+    message: "What is your github username?",
+    validate: (nameInput) => {
+      if (nameInput) {
+        return true;
+      } else {
+        console.log("Please enter your github username!");
+        return false;
+      }
+    },
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your Email address?",
+    validate: (nameInput) => {
+      if (nameInput) {
+        return true;
+      } else {
+        console.log("Please enter your email address!");
+        return false;
+      }
+    },
+  },
+];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) => {
+    if (err) {
+      throw err;
+      return;
+    }
+    console.log('File Created!')
+  });
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  return inquirer.prompt(questions);
+}
 
 // Function call to initialize app
-init();
-
-const printProfileData = (profileDataArr) => {
-    console.log(profileDataArr);
-  };
-  
-  printProfileData(profileDataArgs);
-
-
+init()
+  .then((readMeData) => {
+    return generateMarkdown(readMeData);
+  })
+  .then((readMeData) => {
+    return writeToFile(`README.md`, readMeData);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 
 // AS A developer
 // I WANT a README generator
 // SO THAT I can quickly create a professional README for a new project
 
-
 // GIVEN a command-line application that accepts user input
 // WHEN I am prompted for information about my application repository
-// THEN a high-quality, professional README.md is generated with the title of my project and sections entitled 
+// THEN a high-quality, professional README.md is generated with the title of my project and sections entitled
 
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
