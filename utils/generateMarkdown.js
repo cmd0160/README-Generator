@@ -17,40 +17,46 @@ const {name, username, email} = data;
 
   return `
   # ${data.title}
+
   ### Project Creator
-    ${data.name}
+  ${data.name}
   ## Description
-    ${data.description}
+  ${data.description}
 
   ## Table of Contents
 
   [License](#license)
+
   [Installation](#installation)
+
   [Usage](#usage)
+
   [Contributing](#contributing)
+
   [Tests](#tests)
+
   [Questions](#questions)
     
   ## License   
-    ${data.license}
+  ${data.license}
 
   ## Installation
-    ${data.installation}
+  ${data.installation}
 
   ## Usage
-    ${data.usage}
+  ${data.usage}
 
-    [Click to view the deployed project website.](https://${data.deployedSite})
+  [Click to view the deployed project website.](https://${data.deployedSite})
   ## Contributing  
-    ${data.contributing}
+  ${data.contributing}
 
   ## Tests
-    ${data.test}
+  ${data.test}
 
   ## Questions  
-    [Click on the link to visit my GitHub Profile.](https://www.github.com/${data.username})
+  [Click on the link to visit my GitHub Profile.](https://www.github.com/${data.username})
 
-    [If you have any questions, send me an email at: ${data.email}]
+  [If you have any questions, send me an email at: ${data.email}]
 `;
 }
 

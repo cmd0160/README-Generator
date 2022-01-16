@@ -3,34 +3,39 @@
   ### Project Creator
     Cory Davis
   ## Description
-    Hooks up runners with trainers
+    This application connects runners with personal trainers.
 
   ## Table of Contents
 
   [License](#license)
+
   [Installation](#installation)
+
   [Usage](#usage)
+
   [Contributing](#contributing)
+
   [Tests](#tests)
+  
   [Questions](#questions)
     
   ## License   
-    MIT
+  MIT
 
   ## Installation
-    This is how you install
+  This is how you install 
 
   ## Usage
-    This is how you use the projects
+  This is a description of the projects
 
-    [Click to view the deployed project website.](https://www.runbuddy.fake.com)
+  [Click to view the deployed project website.](https://Here is the link)
   ## Contributing  
-    This is a desciprtion 
+  This is how you contribute
 
   ## Tests
-    this is how you test
+  This is how you test the project.
 
   ## Questions  
-    [Click on the link to visit my GitHub Profile.](https://www.github.com/cmd0160)
+  [Click on the link to visit my GitHub Profile.](https://www.github.com/cmd0160)
 
-    [If you have any questions, send me an email at: cjdoiyeh@gmail.com]
+  [If you have any questions, send me an email at: coryd@gmail.com]
