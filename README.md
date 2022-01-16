@@ -3,7 +3,7 @@
   ### Project Creator
     Cory Davis
   ## Description
-    Hooks up people with a trainer
+    Hooks up runners with a trainer.
 
   ## Table of Contents
     * [license](#license)
@@ -20,16 +20,16 @@
     This is how you install
 
   ## Usage
-    this is a description of the project
+    This is how you use
 
     [Click to view the deployed project website.](https://www.runbuddy.fake.com)
   ## Contributing  
-    This is how to contribute
+    This is how you contribute
 
   ## Tests
-    this is how to test
+    This is how to test
 
   ## Questions  
     [Click on the link to visit my GitHub Profile.](https://www.github.com/cmd0160)
 
-    [If you have any questions, send me an email at: asd;lfj@gmaisl.co]
+    [If you have any questions, send me an email at: alskdjfhiw@gmail.com]
