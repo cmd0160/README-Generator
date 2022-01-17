@@ -9,6 +9,8 @@ This project provides a template to create professional standard README files VE
 ### Link to GitHub repository
 https://github.com/cmd0160/README-Generator
 
+### Link to the Screencastify Demonstration
+https://watch.screencastify.com/v/01Ok1LRS8ZjTNVA0Gr6x
 
 ## Generated README
 ![Weather Dashboard](./Develop/Images/Dashboard-README.png)
