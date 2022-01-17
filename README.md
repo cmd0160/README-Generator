@@ -1,9 +1,10 @@
 
-  # RUNBUDDY
+  # RUBUDDY	
+
   ### Project Creator
-    Cory Davis
+  Cory Davis
   ## Description
-    This application connects runners with personal trainers.
+  Trainer help
 
   ## Table of Contents
 
@@ -16,26 +17,26 @@
   [Contributing](#contributing)
 
   [Tests](#tests)
-  
+
   [Questions](#questions)
     
   ## License   
-  MIT
+  
 
   ## Installation
-  This is how you install 
+  lksjdf
 
   ## Usage
-  This is a description of the projects
+  lksjdf
 
-  [Click to view the deployed project website.](https://Here is the link)
+  [Click to view the deployed project website.](https://www.;lkasjdf;lkjasd.com)
   ## Contributing  
-  This is how you contribute
+  lkjsdf
 
   ## Tests
-  This is how you test the project.
+  This is how you test
 
   ## Questions  
-  [Click on the link to visit my GitHub Profile.](https://www.github.com/cmd0160)
+  [Click here to visit my GitHub Profile.](https://www.github.com/cmd0160)
 
-  [If you have any questions, send me an email at: coryd@gmail.com]
+  [If you have any questions, send me an email at: codyr@gmail.com]
