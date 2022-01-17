@@ -170,14 +170,3 @@ init()
   .catch((err) => {
     console.log(err);
   });
-
-// AS A developer
-// I WANT a README generator
-// SO THAT I can quickly create a professional README for a new project
-
-// GIVEN a command-line application that accepts user input
-
-
-// WHEN I choose a license for my application from a list of options
-// THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-
